@@ -12,13 +12,28 @@
         <h1>Lise Kitap Okuma Etkinliği</h1>
         <b class="text-primary">Yasir Eymen KAYABŞI</b> tarafından.
     </div>
+    <div class="container">
+        <input 
+            type="image"
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADgAJQMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAABAUGAgMHAf/EADgQAAEDAwICAwwLAAAAAAAAAAEAAgMEBREGEiGyQXSRBxQVJTEyNDVRYWJxEyIkMzZFUnKSwtH/xAAZAQACAwEAAAAAAAAAAAAAAAABAgQFBgP/xAAhEQEAAgEDBAMAAAAAAAAAAAABAAIDBBEhMTJBURIzof/aAAwDAQACEQMRAD8ANI0NJU22V9TTQyvE5AL2AkDa3gpeW129pG21wPHwxt4JHRAPgmbAPpDuVqmu9IxjDXDhjylZzWZbmotss0uOo0OJH+C6DPqiH+DVsbaLa5oJt1O0noLAnBTMHka4Y95QyBkbtzW4OMKK58niz+zoUPU59qiCGlvMsVPG2OMNYQ1owPNCFs1ifH8/7GcoQtTprLhqvqQrh8mWjQQ8Uz9YdytW6tvVVT1kkXe7djSAMnicrDufN3WefrLuVqyvtoqZ3yVReTsb9VgPBQc23zd4nmRst8rw5zWOa4Od0N4gexO0N5qGRfaQxxJAYC7B7elV4wTmZoZDIXFpONuMjKsNks8zKtlTPDGGYy3PnD5hJYqEPO8q+sznUNQR+lnKEI1rw1JVD3M5AhWeH6yGW7ueeppusu5Wq0ENIwVVe5+7bZZc49IdytVm+kCr83exF5igpohdRgD7g8yf2tA4JIEeFPnB/ZMPIGclcSgMN7LOX63/ABNV/JnIELHWZzqSrx8HIEK3xdhGk5pK7UNDanRVNXHDKZ3O2uB83A9g9yn26jsnTcoux3+L1C53042XeK1GLwalsU9SZTVmJ7WbcyAgEZTDr/ZD+ZQdpQhB01R6wFN+s57qmohqb7UzUsjZInbNr2ngcNAQhCkVqAEef//Z"
+            alt="Yaşar Kemal | Kuşlarla Gitti"
+        >
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script>
 
         const qS = document.querySelector;
 
+        function launchPDF(path) {
+
+            const win = window.open("", "_blank", "application/pdf");
+
+        }
+
         qS("#1").addEventListener("click", function () {
+
+            launchPDF("https://drive.google.com/file/d/1Zlf0h6hCM2xHyHSQ6ZuPQ-d0jELRIvI7/preview");
 
         })
 
